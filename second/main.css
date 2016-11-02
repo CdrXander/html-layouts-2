@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #D8D8D8;
+	font-family: sans-serif;
+}
+
+
+section {
+	background-color: white;
+	width: 85%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding:20px;
+	position: relative;
+}
+
+footer {
+	color: white;
+	background-color: #333;
+	margin: 0;
+	margin-top: 15px;
+	height: 5vh; 
+	width: 100%;
+	position: fixed;
+	bottom: 0
+}
+
+.button-div{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.button {
+	position: relative;
+	height: 50px;
+	width: 120px;	
+	display: inline-block;
+	font-size: 22px;
+	color: #FFF;
+	margin: 0 8px;
+}
+
+/*Parent element must have a non-static position*/
+.centered {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.red {
+	background-color: #D0021B;
+}
+.red:hover {
+	background-color: #C0021B
+}
+
+.blue {
+	background-color: #4A90E2;
+}
+.blue:hover {
+	background-color: #4A90B2;
+}
+
+.img-backing {
+	background-color: #4A4A4A;
+	color:white;
+	font-size: 30px;
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+.menu {
+	height: 100%;
+	width: 100px;
+	position: relative;
+	/*display: inline-block;*/
+	float:right;
+}
+
+.menu:hover {
+	background-color: #5F5F5F;
+}
