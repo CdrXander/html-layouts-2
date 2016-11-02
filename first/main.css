@@ -1,0 +1,74 @@
+header {
+	height: 15vh;
+	width: 100%;
+}
+
+p {
+	margin: 20px 10px;
+}
+
+body {
+	margin: 8px;
+}
+
+.box {
+	width: 32%;
+	height: 100%;
+	float: left;
+	margin: 1%;
+	position: relative;
+	top:0;
+	left:0;
+}
+
+.nest-box {
+	height: 100%;
+	width: 80%;
+	margin: 0;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.no-left-margin {
+	margin-left: 0;
+}
+
+.no-right-margin {
+	margin-right: 0;
+}
+
+.no-margin {
+	margin:0;
+}
+
+.one-third-width {
+	width: calc(100%/3);
+}
+
+.two-third-width {
+	width: calc((100%/3) * 2);
+}
+
+.row-two {
+	height: 30vh;
+	margin: 15px 0;
+}
+
+.row-three {
+	height: 15vh;
+	margin: 15px 0;
+}
+/*Box Colors*/
+.red {
+	background-color: #D0021B;
+}
+
+.blue {
+	background-color: #4A90E2;
+}
+
+.gray {
+	background-color: #4A4A4A;
+}
